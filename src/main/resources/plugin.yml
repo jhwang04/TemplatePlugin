@@ -1,0 +1,7 @@
+name: TemplatePlugin
+main: com.justinhwang.templateplugin.TemplatePlugin
+version: 1.0.0
+api-version: 1.15
+commands:
+  templateplugin:
+    description: manage the template plugin (enable/disable)
