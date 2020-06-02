@@ -9,7 +9,7 @@ public class TemplatePluginEvent implements Listener {
     public TemplatePlugin plugin;
 
     public TemplatePluginEvent(TemplatePlugin plugin) {this.plugin = plugin;}
-    
+
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
         if(plugin.config.getBoolean("enabled") == true) {
